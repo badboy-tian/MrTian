@@ -1,4 +1,4 @@
-package com.i7play.newbtc.base
+package com.i7play.mrtian.base
 
 import android.content.Intent
 import android.os.Bundle

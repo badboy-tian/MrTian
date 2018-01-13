@@ -1,4 +1,4 @@
-package com.i7play.newbtc.adapter
+package com.i7play.mrtian.adapter
 
 import android.content.Context
 import android.view.ViewGroup
