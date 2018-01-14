@@ -7,10 +7,18 @@ import android.content.Context
  * 本地数据保存类
  */
 
-class SPUtils {
+open class SPUtils {
     private lateinit var context: Context
     private fun setContext(context: Context) {
         this.context = context
+    }
+
+    fun currentID(): String? {
+        return SharedPrefsUtils.getStringPreference(context, "currentId")
+    }
+
+    fun currentID(currentID: String) {
+        SharedPrefsUtils.setStringPreference(context, "currentId", currentID)
     }
 
     companion object {
